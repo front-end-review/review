@@ -6,7 +6,7 @@
   H5新特性
   行内元素，块级元素
 - css 问的比较少
-  - css3性特性
+  - css3新特性
     boder-image, flex grid trasition animation transform 伪类 x:first-of-type 属于父元素的第一个 x 元素
     box-shadow：水平阴影， 垂直阴影的位置， 模糊距离，阴影的的颜色阴影开始方向 filter滤镜
   - flex
