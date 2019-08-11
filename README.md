@@ -28,19 +28,33 @@
     traisiton animation requestAnimationFrame
   - css优先级
   - 垂直居中
+    父元素 display：relative
+    子元素 display: absolute; top: 50%; left: 50%; width:100px;height:100px; margin: -50px 0 0 -50;
+    display: absolute; top:50%; left:50%; transform: translate(-50%, -50%);
+    display:flex; justify-content: center; align-items: center;
+    display: table-cell; vertical-align: middle; text-align: center;
   - 单位，像素问题
   - 布局
   - BFC
+    position 为absolute fixed
+    display 不为none
+    overflow 不为visible
+    float 不为none
 - js
-  1. 变量
-  2. 数据类型
-  3. 闭包
-  4. 原型链
-  5. 数组和方法
-  6. 函数， function
-  7. 继承
-  8. this
-  9. let const class promise async await set map 模块化es commonjs
+  - 变量
+  - 数据类型
+    number string boolean null undefined symbol  Object function
+  - 闭包
+  - 原型链
+  - 数组和方法
+  - 函数， function
+  - 继承
+  - this
+  - let const
+  - class extends
+  - promise async await
+  - set map
+  - 模块化es commonjs
 - 计算机网络
   - http1.0 1.1 2.0 https
     - get post
@@ -49,7 +63,7 @@
 - 浏览器
   - 跨域
   - event loop
-  - 缓存
+  - 存储
   - 缓存策略
   - 渲染原理
   - 输入URL到页面渲染过程
